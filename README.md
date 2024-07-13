@@ -46,7 +46,8 @@ I am Vinoth Kumar V., an Embedded Software Engineer with a passion for developin
 Feel free to reach out to me for any inquiries or collaboration opportunities!
 
 - **Email**: vinothb612@gmail.com
-- **LinkedIn**: [https://www.linkedin.com/in/vinoth-kumar-jain-3539551b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]([https://linkedin.com/in/vinoth](https://www.linkedin.com/in/vinoth-kumar-jain-3539551b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
+- **LinkedIn**: [Vinoth Kumar](https://www.linkedin.com/in/vinoth-kumar-3539551b7)
+
 - **GitHub**: [github.com/vinothhacker52](https://github.com/vinothhacker52)
 
 ---
