@@ -1,6 +1,0 @@
-Dependencies for Project 'can_slave', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x4E78202C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
-F (.\can_slave_right.c)(0x664F4091)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "can_slave_right.o" --omf_browse "can_slave_right.crf" --depend "can_slave_right.d")
-I (Can_Driver.h)(0x664C880C)
-I (C:\Keil4\ARM\Inc\Philips\lpc21xx.h)(0x661D2EBF)
-I (lcd.h)(0x664C8AF0)
