@@ -1,0 +1,7 @@
+Dependencies for Project 'Switch', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4E78202C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\switch.c)(0x65FD8C20)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips -o "switch.o" --omf_browse "switch.crf" --depend "switch.d")
+I (C:\Keil4\ARM\Inc\Philips\lpc21xx.h)(0x656886AE)
+I (timer.c)(0x65FD8BA7)
+F (.\timer.c)(0x65FD8BA7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips -o "timer.o" --omf_browse "timer.crf" --depend "timer.d")
+I (C:\Keil4\ARM\Inc\Philips\LPC21xx.h)(0x656886AE)

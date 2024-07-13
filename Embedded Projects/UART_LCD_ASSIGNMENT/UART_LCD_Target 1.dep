@@ -1,0 +1,8 @@
+Dependencies for Project 'UART_LCD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4E78202C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x6627BE59)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil4\ARM\INC\Philips\lpc21xx.h)(0x4E78215A)
+I (E:\V23CE6V2\EMBEDDED PROJECTS\UART_LCD_ASSIGNMENT\LCD_DRIVER.h)(0x6627BA84)
+I (E:\V23CE6V2\EMBEDDED PROJECTS\UART_LCD_ASSIGNMENT\UART0_DRIVER.h)(0x6627BEC0)
+F (.\LCD_DRIVER.h)(0x6627BA84)()
+F (.\UART0_DRIVER.h)(0x6627BEC0)()

@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v23ce6v2\Embedded Projects\LCD\LCD.uvproj
+Project File Date:  03/29/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+Startup.s: error: A1023E: File "Startup.s" could not be opened: No such file or directory
+Target not created

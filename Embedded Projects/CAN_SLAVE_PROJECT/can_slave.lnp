@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "can_slave_right.o" --strict --scatter "can_slave.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\can_slave.map" -o "can_slave.axf"

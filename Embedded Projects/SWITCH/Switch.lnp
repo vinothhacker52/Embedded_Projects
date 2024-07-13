@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "switch.o" "timer.o" --strict --scatter "Switch.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Switch.map" -o "Switch.axf"

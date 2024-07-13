@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "start.o" --strict --scatter "LED1.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED1.map" -o "LED1.axf"

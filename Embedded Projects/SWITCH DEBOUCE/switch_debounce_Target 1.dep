@@ -1,0 +1,7 @@
+Dependencies for Project 'switch_debounce', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4E78202C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (..\LCD\lcdheader.h)(0x6606B2B4)()
+F (.\switch_debounce.c)(0x6606BE9B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "switch_debounce.o" --omf_browse "switch_debounce.crf" --depend "switch_debounce.d")
+I (C:\Keil4\ARM\INC\Philips\lpc21xx.h)(0x4E78215A)
+I (E:\V23CE6V2\EMBEDDED PROJECTS\LCD\lcdheader.h)(0x6606B2B4)
+I (C:\Keil4\ARM\RV31\INC\string.h)(0x4E782016)

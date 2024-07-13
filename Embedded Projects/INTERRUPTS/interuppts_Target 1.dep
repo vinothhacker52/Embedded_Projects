@@ -1,0 +1,4 @@
+Dependencies for Project 'interuppts', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x66193E50)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\interupts.c)(0x66193C92)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips -o "interupts.o" --omf_browse "interupts.crf" --depend "interupts.d")
+I (C:\Keil4\ARM\Inc\Philips\lpc21xx.h)(0x6549E48B)

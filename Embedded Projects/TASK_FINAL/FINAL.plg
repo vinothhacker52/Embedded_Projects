@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v23ce6v2\Embedded Projects\TASK_FINAL\FINAL.uvproj
+Project File Date:  06/22/2024
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(3): error:  #5: cannot open source input file "LPC2129.h": No such file or directory
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(29): error:  #321: data member initializer is not allowed
+final.cpp(63): error:  #245: a nonstatic member reference must be relative to a specific object
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(1): error:  #5: cannot open source input file "LPC2129.h": No such file or directory
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(58): error:  #245: a nonstatic member reference must be relative to a specific object
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(4): error:  #53: expected a ":"
+final.cpp(4): error:  #260-D: explicit type is missing ("int" assumed)
+final.cpp(4): error:  #65: expected a ";"
+final.cpp(17): warning:  #12-D: parsing restarts here after previous syntax error
+final.cpp(58): error:  #245: a nonstatic member reference must be relative to a specific object
+final.cpp(68): error:  #135: class "LEDController" has no member "start"
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(58): error:  #245: a nonstatic member reference must be relative to a specific object
+final.cpp(3): error:  #1000-D: a storage class may not be specified here
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(58): error:  #245: a nonstatic member reference must be relative to a specific object
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(1): error:  #5: cannot open source input file "LPC2129.h": No such file or directory
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(34): error:  #504-D: nonstandard form for taking the address of a member function
+final.cpp(34): error:  #171: invalid type conversion
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(34): error:  #504-D: nonstandard form for taking the address of a member function
+final.cpp(34): error:  #171: invalid type conversion
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(34): error:  #504-D: nonstandard form for taking the address of a member function
+final.cpp(34): error:  #171: invalid type conversion
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(34): error:  #504-D: nonstandard form for taking the address of a member function
+final.cpp(34): error:  #513: a value of type "void (LEDController::*)()" cannot be assigned to an entity of type "unsigned long"
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling final.cpp...
+final.cpp(34): error:  #504-D: nonstandard form for taking the address of a member function
+final.cpp(34): error:  #513: a value of type "void (LEDController::*)()" cannot be assigned to an entity of type "unsigned long"
+Target not created

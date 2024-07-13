@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "interupts.o" --strict --scatter "interuppts.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\interuppts.map" -o "interuppts.axf"

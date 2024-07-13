@@ -1,0 +1,9 @@
+rtc.o: rtc.c
+rtc.o: C:\Keil4\ARM\Inc\Philips\LPC21xx.h
+rtc.o: types.h
+rtc.o: i2c.h
+rtc.o: types.h
+rtc.o: i2c_eeprom.h
+rtc.o: delay.h
+rtc.o: types.h
+rtc.o: C:\Keil4\ARM\RV31\Inc\string.h

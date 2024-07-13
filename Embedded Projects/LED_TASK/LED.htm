@@ -1,0 +1,164 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [E:\v23ce6v2\Embedded Projects\LED_TASK\LED.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image E:\v23ce6v2\Embedded Projects\LED_TASK\LED.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 481]: Last Updated: Sat Jun 22 14:40:39 2024
+<BR><P>
+<H3>Maximum Stack Usage =          4 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+startup &rArr; MyLEDControl::init()
+<P>
+<H3>
+Functions with no stack information
+</H3><UL>
+ <LI><a href="#[0]">Reset_Handler</a>
+ <LI><a href="#[11]">__user_initial_stackheap</a>
+ <LI><a href="#[1]">Undef_Handler</a>
+ <LI><a href="#[2]">SWI_Handler</a>
+ <LI><a href="#[3]">PAbt_Handler</a>
+ <LI><a href="#[4]">DAbt_Handler</a>
+ <LI><a href="#[5]">IRQ_Handler</a>
+ <LI><a href="#[6]">FIQ_Handler</a>
+</UL>
+</UL>
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1]">Undef_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">Undef_Handler</a><BR>
+ <LI><a href="#[2]">SWI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">SWI_Handler</a><BR>
+ <LI><a href="#[3]">PAbt_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">PAbt_Handler</a><BR>
+ <LI><a href="#[4]">DAbt_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">DAbt_Handler</a><BR>
+ <LI><a href="#[5]">IRQ_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">IRQ_Handler</a><BR>
+ <LI><a href="#[6]">FIQ_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[6]">FIQ_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[0]">Reset_Handler</a> from startup.o(RESET) referenced from startup.o(RESET)
+ <LI><a href="#[1]">Undef_Handler</a> from startup.o(RESET) referenced from startup.o(RESET)
+ <LI><a href="#[2]">SWI_Handler</a> from startup.o(RESET) referenced from startup.o(RESET)
+ <LI><a href="#[3]">PAbt_Handler</a> from startup.o(RESET) referenced from startup.o(RESET)
+ <LI><a href="#[4]">DAbt_Handler</a> from startup.o(RESET) referenced from startup.o(RESET)
+ <LI><a href="#[5]">IRQ_Handler</a> from startup.o(RESET) referenced from startup.o(RESET)
+ <LI><a href="#[6]">FIQ_Handler</a> from startup.o(RESET) referenced from startup.o(RESET)
+ <LI><a href="#[7]">startup</a> from start.o(.text) referenced from startup.o(RESET)
+ <LI><a href="#[8]">__sti___9_start_cpp</a> from start.o(.text) referenced from start.o(.init_array)
+ <LI><a href="#[a]">MyLEDControl::timer_callback()</a> from start.o(.text) referenced from start.o(.text)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (ARM, 0 bytes, Stack size unknown bytes, startup.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>__rt_lib_init_cpp_2</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+
+<P><STRONG><a name="[11]"></a>__user_initial_stackheap</STRONG> (ARM, 0 bytes, Stack size unknown bytes, startup.o(.text), UNUSED)
+
+<P><STRONG><a name="[d]"></a>MyLEDControl::start()</STRONG> (ARM, 16 bytes, Stack size 0 bytes, start.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;startup
+</UL>
+
+<P><STRONG><a name="[a]"></a>MyLEDControl::timer_callback()</STRONG> (ARM, 144 bytes, Stack size 0 bytes, start.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> start.o(.text)
+</UL>
+<P><STRONG><a name="[c]"></a>MyLEDControl::configure_timer()</STRONG> (ARM, 76 bytes, Stack size 0 bytes, start.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyLEDControl::init()
+</UL>
+
+<P><STRONG><a name="[b]"></a>MyLEDControl::init()</STRONG> (ARM, 52 bytes, Stack size 4 bytes, start.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = MyLEDControl::init()
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyLEDControl::configure_timer()
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;startup
+</UL>
+
+<P><STRONG><a name="[7]"></a>startup</STRONG> (ARM, 24 bytes, Stack size 0 bytes, start.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = startup &rArr; MyLEDControl::init()
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyLEDControl::init()
+<LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyLEDControl::start()
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>MyLEDControl::MyLEDControl(unsigned)</STRONG> (ARM, 16 bytes, Stack size 0 bytes, start.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___9_start_cpp
+</UL>
+
+<P><STRONG><a name="[12]"></a>MyLEDControl::MyLEDControl__sub_object(unsigned)</STRONG> (ARM, 0 bytes, Stack size 0 bytes, start.o(.text), UNUSED)
+
+<P><STRONG><a name="[13]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[14]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[15]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[9]"></a>__cpp_initialize__aeabi_</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, init_aeabi.o(.text), UNUSED, KEPT)
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __cpp_initialize__aeabi_
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_call_via_r0
+</UL>
+
+<P><STRONG><a name="[f]"></a>__ARM_common_call_via_r0</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, init_aeabi.o(i.__ARM_common_call_via_r0), UNUSED, KEPT)
+<BR><BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cpp_initialize__aeabi_
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[1]"></a>Undef_Handler</STRONG> (ARM, 4 bytes, Stack size unknown bytes, startup.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Undef_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Undef_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>SWI_Handler</STRONG> (ARM, 4 bytes, Stack size unknown bytes, startup.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>PAbt_Handler</STRONG> (ARM, 4 bytes, Stack size unknown bytes, startup.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PAbt_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PAbt_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>DAbt_Handler</STRONG> (ARM, 4 bytes, Stack size unknown bytes, startup.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAbt_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAbt_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>IRQ_Handler</STRONG> (ARM, 4 bytes, Stack size unknown bytes, startup.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IRQ_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IRQ_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>FIQ_Handler</STRONG> (ARM, 4 bytes, Stack size unknown bytes, startup.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FIQ_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FIQ_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>__sti___9_start_cpp</STRONG> (ARM, 24 bytes, Stack size 4 bytes, start.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = __sti___9_start_cpp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MyLEDControl::MyLEDControl(unsigned)
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> start.o(.init_array)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

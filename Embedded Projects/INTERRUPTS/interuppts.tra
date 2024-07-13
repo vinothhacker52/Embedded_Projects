@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'interuppts.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"interupts.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "interupts.o" --strict --scatter "interuppts.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\interuppts.map" -o "interuppts.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'interuppts.axf'
+### ADS-LD Command File: 'interuppts.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'interuppts.lnp', Handle=0x000006A8
+### Writing '.lnp' file
+### ADS-LD Command file 'interuppts.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

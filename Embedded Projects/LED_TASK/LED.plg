@@ -1,0 +1,209 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v23ce6v2\Embedded Projects\LED_TASK\LED.uvproj
+Project File Date:  06/22/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+LED.axf: Not enough information to list image symbols.
+LED.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+LED.axf: Not enough information to list image symbols.
+LED.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+LED.axf: Not enough information to list image symbols.
+LED.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+LED.axf: Not enough information to list image symbols.
+LED.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+LED.axf: Not enough information to list image symbols.
+LED.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+LED.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=736 RO-data=4 RW-data=12 ZI-data=1164  
+LED.sct: Finished: 0 information, 2 warning and 0 error messages.
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6630E: Invalid token start expected number or ( but found s at position 12 on line 16
+LED.axf: Error: L6226E: Missing base address for region ENTRYPOINT.
+LED.sct(16): error: L6292E: Ignoring unknown attribute 'startup' specified for region ENTRYPOINT.
+LED.sct(17): error: L6228E: Expected '{', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+linking...
+LED.axf: Error: L6630E: Invalid token start expected number or ( but found s at position 12 on line 16
+LED.axf: Error: L6226E: Missing base address for region ENTRYPOINT.
+LED.sct(16): error: L6292E: Ignoring unknown attribute 'startup' specified for region ENTRYPOINT.
+LED.sct(17): error: L6228E: Expected '{', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6630E: Invalid token start expected number or ( but found s at position 12 on line 16
+LED.axf: Error: L6226E: Missing base address for region ENTRYPOINT.
+LED.sct(16): error: L6292E: Ignoring unknown attribute 'startup' specified for region ENTRYPOINT.
+LED.sct(17): error: L6228E: Expected '{', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6630E: Invalid token start expected number or ( but found s at position 12 on line 16
+LED.axf: Error: L6226E: Missing base address for region ENTRYPOINT.
+LED.sct(16): error: L6292E: Ignoring unknown attribute 'startup' specified for region ENTRYPOINT.
+LED.sct(17): error: L6228E: Expected '{', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Error: L6630E: Invalid token start expected number or ( but found s at position 9 on line 15
+LED.axf: Error: L6226E: Missing base address for region IMPORT.
+LED.sct(15): error: L6292E: Ignoring unknown attribute 'startup' specified for region IMPORT.
+LED.sct(16): error: L6292E: Ignoring unknown attribute 'ENTRYPOINT' specified for region IMPORT.
+LED.sct(16): error: L6292E: Ignoring unknown attribute 'startup' specified for region IMPORT.
+LED.sct(17): error: L6228E: Expected '{', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 6 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+LED.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=736 RO-data=4 RW-data=12 ZI-data=1164  
+LED.sct: Finished: 0 information, 2 warning and 0 error messages.
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.sct(17): error: L6226E: Missing base address for region ENTRY.
+LED.sct(18): error: L6226E: Missing base address for region startup.
+LED.sct(18): error: L6292E: Ignoring unknown attribute '=' specified for region startup.
+LED.sct(19): error: L6228E: Expected '{', found '}...'.
+LED.sct(19): error: L6228E: Expected '}', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 5 error messages.
+"LED.axf" - 5 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.sct(17): error: L6226E: Missing base address for region ENTRY.
+LED.sct(19): error: L6228E: Expected '{', found '}...'.
+LED.sct(19): error: L6228E: Expected '}', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 3 error messages.
+"LED.axf" - 3 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+LED.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=736 RO-data=4 RW-data=12 ZI-data=1164  
+LED.sct: Finished: 0 information, 2 warning and 0 error messages.
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.sct(17): error: L6226E: Missing base address for region ENTRY.
+LED.sct(18): error: L6226E: Missing base address for region startup.
+LED.sct(18): error: L6292E: Ignoring unknown attribute '=' specified for region startup.
+LED.sct(19): error: L6228E: Expected '{', found '}...'.
+LED.sct(19): error: L6228E: Expected '}', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 5 error messages.
+"LED.axf" - 5 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+LED.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=736 RO-data=4 RW-data=12 ZI-data=1164  
+LED.sct: Finished: 0 information, 2 warning and 0 error messages.
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+LED.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=736 RO-data=4 RW-data=12 ZI-data=1164  
+LED.sct: Finished: 0 information, 2 warning and 0 error messages.
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling start.cpp...
+linking...
+LED.sct(17): error: L6226E: Missing base address for region ENTRY.
+LED.sct(18): error: L6226E: Missing base address for region startup.
+LED.sct(18): error: L6292E: Ignoring unknown attribute '=' specified for region startup.
+LED.sct(19): error: L6228E: Expected '{', found '}...'.
+LED.sct(19): error: L6228E: Expected '}', found 'EOF'.
+LED.sct: Not enough information to list image symbols.
+LED.sct: Not enough information to list the image map.
+LED.sct: Finished: 2 information, 0 warning and 5 error messages.
+"LED.axf" - 5 Error(s), 0 Warning(s).

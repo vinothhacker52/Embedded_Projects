@@ -1,0 +1,6 @@
+Dependencies for Project 'can_project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4E78202C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\Can_Master_Node.c)(0x664C96DE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips -o "can_master_node.o" --omf_browse "can_master_node.crf" --depend "can_master_node.d")
+I (Can_Driver.h)(0x664C880C)
+I (C:\Keil4\ARM\Inc\Philips\lpc21xx.h)(0x4E78215A)
+I (LCD.h)(0x664C8AF0)

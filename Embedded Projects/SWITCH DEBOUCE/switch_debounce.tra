@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'switch_debounce.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"switch_debounce.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "switch_debounce.o" --strict --scatter "switch_debounce.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\switch_debounce.map" -o "switch_debounce.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'switch_debounce.axf'
+### ADS-LD Command File: 'switch_debounce.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'switch_debounce.lnp', Handle=0x000003A0
+### Writing '.lnp' file
+### ADS-LD Command file 'switch_debounce.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

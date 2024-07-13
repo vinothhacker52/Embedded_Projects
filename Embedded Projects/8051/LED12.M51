@@ -1,0 +1,97 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        06/14/2024  19:50:45  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE LED_BLINK.obj TO LED12
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  LED_BLINK.obj (LED_BLINK)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  LED12 (LED_BLINK)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0002H     UNIT         _DATA_GROUP_
+            IDATA   000AH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     006CH     UNIT         ?PR?MAIN?LED_BLINK
+            CODE    006FH     0021H     UNIT         ?PR?_DELAY_MS?LED_BLINK
+            CODE    0090H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   LED12 (LED_BLINK)
+
+
+SEGMENT                           DATA_GROUP 
+  +--> CALLED SEGMENT           START    LENGTH
+-----------------------------------------------
+?C_C51STARTUP                   -----    -----
+  +--> ?PR?MAIN?LED_BLINK
+
+?PR?MAIN?LED_BLINK              0008H    0002H
+  +--> ?PR?_DELAY_MS?LED_BLINK
+
+
+
+SYMBOL TABLE OF MODULE:  LED12 (LED_BLINK)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LED_BLINK
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  C:0003H         PUBLIC        main
+  C:0075H         PUBLIC        _delay_ms
+  -------         PROC          L?0029
+  -------         ENDPROC       L?0029
+  -------         PROC          _DELAY_MS
+BL51 BANKED LINKER/LOCATER V6.22                                                      06/14/2024  19:50:45  PAGE 2
+
+
+  D:0006H         SYMBOL        n
+  -------         DO            
+  D:0005H         SYMBOL        i
+  -------         ENDDO         
+  C:0075H         LINE#         1
+  C:0075H         LINE#         3
+  C:0080H         LINE#         5
+  C:0084H         LINE#         6
+  C:0088H         LINE#         7
+  C:008FH         LINE#         8
+  -------         ENDPROC       _DELAY_MS
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        i
+  D:0009H         SYMBOL        j
+  -------         ENDDO         
+  C:0003H         LINE#         6
+  C:0003H         LINE#         7
+  C:0003H         LINE#         9
+  C:0012H         LINE#         10
+  C:0023H         LINE#         11
+  C:0030H         LINE#         12
+  C:0033H         LINE#         13
+  C:0039H         LINE#         14
+  C:0048H         LINE#         15
+  C:0059H         LINE#         16
+  C:0066H         LINE#         17
+  C:0069H         LINE#         18
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LED_BLINK
+
+Program Size: data=11.0 xdata=0 code=156
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

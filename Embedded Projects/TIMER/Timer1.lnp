@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "timer.o" --strict --scatter "Timer1.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Timer1.map" -o "Timer1.axf"
