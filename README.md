@@ -30,6 +30,7 @@ I am Vinoth Kumar V., an Embedded Software Engineer with a passion for developin
 ### 🚨 Accident Detection Using IoT
 - **Description**: Developed an IoT-based accident detection system using Wi-Fi and camera modules, vibration sensors, and SPI communication protocol.
 - **Technologies Used**: IoT, Wi-Fi module, Camera module, Vibration sensors, SPI communication.
+- **[Project Repository](https://github.com/vinothhacker52/Embedded_Projects/tree/main/Embedded%20Projects/Accident_Detection_System_Using_IOT)**
 
 ## 💡 Skills
 - **Microcontrollers**: STM32, LPC2129, 8051
